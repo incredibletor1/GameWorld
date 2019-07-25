@@ -1,0 +1,198 @@
+﻿body {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQf9v6pBGKmS9F12V25Jv_72hGImMIvnXkK0LwTHlH9K_HQbjI);
+}
+
+div#header div.title, div.item h3, div.item h4, div.pager a {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+div#header {
+    background-image: url(https://plumtree.org.au/wp-content/uploads/Backgrounds/Fullscreen-web-background-wash-green.png);
+    border-bottom: 2px solid #111;
+    color: white;
+}
+
+    div#header div.title {
+        font-size: 2em;
+        padding: 0.6em;
+        color: #8B0000;
+    }
+
+div#content { /* c */
+    border-right: 2px solid red;
+    margin-left: 1em;
+    padding: 0.5em;
+    color: #32CD32;
+}
+
+
+div#categories {   /* categories */
+    float: none;
+    width: 78em;
+    padding: 1em;
+}
+
+div.item {
+    border-top: 1px dotted gray;
+    padding-top: .7em;
+    margin-bottom: .7em;
+}
+
+    div.item:first-child {
+        border-top: none;
+        padding-top: 0;  /*отступ над контентом первым элементом*/
+    }
+
+    div.item h3 {
+        font-size: 1.3em;
+        margin: 0 0 .25em 0;
+    }
+
+    div.item h4 {
+        font-size: 1.1em;
+        margin: .4em 0 0 0;
+    }
+
+div.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+    div.pager a {
+        font-size: 1.1em;
+        color: #666;
+        text-decoration: none;
+        padding: 0 .4em 0 .4em;
+    }
+
+        div.pager a:hover {
+            background-color: Silver;
+        }
+
+        div.pager a.selected {
+            background-color: #353535;
+            color: white;
+        }
+div#categories a {
+    font: bold 2.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: inline;
+    text-decoration: none;
+    padding: 0em;
+    color: #32CD32;
+    
+    padding-right: 2.8em;
+    border-bottom: 1px solid groove;
+    border-right: 1px solid groove;
+    border-left: 1px solid groove;
+    border-top: 1px solid groove;
+}
+
+
+    div#categories a.selected {
+        background-color: #666;
+        color: White;
+    }
+
+    div#categories a:hover {
+        background-color: #CCC;
+    }
+
+    div#categories a.selected:hover {
+        background-color: #666;
+        text-decoration: underline;
+    }
+div.item button {
+    color: White;
+    background-color: #333;
+    border: 1px solid black;
+    float: right;
+}
+h2 {
+    margin-top: 0.3em
+}
+
+#cartTable {
+    width: 90%;
+}
+
+    #cartTable tfoot td {
+        border-top: 1px dotted gray;
+        font-weight: bold;
+    }
+
+    #cartTable thead th {
+        text-align: right;
+    }
+
+        #cartTable thead th:first-child {
+            text-align: center;
+        }
+
+        #cartTable thead th:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tbody td {
+        text-align: right;
+    }
+
+        #cartTable tbody td:first-child {
+            text-align: center;
+        }
+
+        #cartTable tbody td:nth-child(2) {
+            text-align: left;
+        }
+
+    #cartTable tfoot tr td {
+        text-align: right;
+    }
+
+p.actionButtons {
+    text-align: center;
+}
+
+.actionButtons a, button.actionButtons {
+    font: .8em Arial;
+    color: White;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
+}
+div#cartSummary {
+    float: right;
+    margin: .8em;
+    color: Silver;
+    background-color: #555;
+    padding: .5em .5em .5em 1em;
+}
+
+    div#cartSummary a {
+        text-decoration: none;
+        padding: .4em 1em .4em 1em;
+        line-height: 2.1em;
+        margin-left: .5em;
+        background-color: #333;
+        color: White;
+        border: 1px solid black;
+    }
+.checkout label {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+
+.checkout div input {
+    width: 200px;
+    margin: 2px;
+}
+
+#errors {
+    color: red;
+}
